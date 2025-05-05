@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def f(x, y):
     return x**2 + y**2
 
@@ -28,8 +29,8 @@ def integral_x(y_range, x_range, n_x, n_y):
 # Parámetros
 x_range = [-100, 35]  # Intervalo para x
 y_range = [-20, 200]  # Intervalo para y
-n_x = 60  # Número de subintervalos para x
-n_y = 60  # Número de subintervalos para y
+n_x = 50  # Número de subintervalos para x
+n_y = 50  # Número de subintervalos para y
 
 # Resultado final
 result = integral_x(y_range, x_range, n_x, n_y)
